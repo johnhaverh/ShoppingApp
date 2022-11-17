@@ -1,11 +1,13 @@
-Proyecto base para el segundo reto
+Reto # 2
 
-El código incluye comentarios que explican la estructura del proyecto y los puntos en los que se tiene que trabajar están marcados con un TODO.
+Proyecto del segundo reto Mision TIC 2022 - NRC2288 - Grupo 12
 
-El siguiente es un demo de la interfaz a la que se debe llegar (funcionalidades adicionales o mejoras a la interfaz son permitidas):
+Aplicación carrito de compras simple, se realiza con base en el ejemplo recibido, se hacen los cambios requeridos para su correcto funcionamiento
 
-![shoppingApp](https://user-images.githubusercontent.com/4458129/173839525-218900ed-9bcd-4f6f-9158-0b02dd9d7707.gif)
+Hace uso de los paquetes:
 
-Solución:
+get : para gestión de estados -> https://pub.dev/packages/get
+loggy: para fregistro del log -> https://pub.dev/packages/loggy
+  
+La siguiente imágen presenta un demo de la aplicación funcional:
 
-https://github.com/MisionTIC4b/f_shopping_app
