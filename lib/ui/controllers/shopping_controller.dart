@@ -19,8 +19,6 @@ class ShoppingController extends GetxController {
 
   void calcularTotal() {
     int newTotal = 0;
-    // TODO
-    // calcular el valor total de los elementos en el carro de compras
     entries.forEach((element) => newTotal += element.price * element.quantity);
     total.value = newTotal;
   }
