@@ -21,24 +21,28 @@ class ShoppingController extends GetxController {
     int newTotal = 0;
     // TODO
     // calcular el valor total de los elementos en el carro de compras
+    entries.forEach((element) => newTotal += element.price * element.quantity);
     total.value = newTotal;
   }
 
   agregarProducto(id) {
     logInfo('agregarProducto $id');
-    // TODO
-    // Encontrar el elemento usando el id, revisar el método firstWhere de la lista
-    // después obtener el index de ese elemento, revisar el método indexOf de la lista
-    // después hacer el incremento en la cantidad
-    // finalmente actualizar entries usando el indice y el elemento actualizado
+    var producto=entries.firstWhere((Product product) => product.id == id);
+    //var index=entries.indexOf(producto);
+    producto.quantity = producto.quantity + 1;
+    entries[entries.indexWhere((element) => element.id == id)]=producto;
     calcularTotal();
   }
 
   quitarProducto(id) {
     logInfo('quitarProducto $id');
-    // TODO
-    // similar a agregarProducto
-    // validar cuando la cantidad es igual a cero
+    var producto=entries.firstWhere((Product product) => product.id == id);
+    //var index=entries.indexOf(producto);
+    
+    if (producto.quantity > 0){
+      producto.quantity = producto.quantity - 1;
+      entries[entries.indexWhere((element) => element.id == id)]=producto;
+    }
     calcularTotal();
   }
 }
