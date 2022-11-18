@@ -18,6 +18,8 @@ class HomePage extends StatelessWidget {
       const Text("Brad Wilson", style: TextStyle( fontSize: 25.0, color: Colors.blueGrey, letterSpacing: 2.0, fontWeight: FontWeight.w400)),
       const SizedBox( height: 20, ),
       const Text("Kilcoole, Waterford", style: TextStyle( fontSize: 18.0,color: Colors.black45, letterSpacing: 2.0, fontWeight: FontWeight.w300),),
+      const SizedBox(  height: 60, ),
+      const Text("Misión Tic 2022 - NRC2288 - Grupo 12", style: TextStyle( fontSize: 25.0, color: Colors.blueGrey, letterSpacing: 2.0, fontWeight: FontWeight.w400)),
       CartTotal()
     ]));
   }
