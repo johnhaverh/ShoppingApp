@@ -7,7 +7,9 @@ Aplicación carrito de compras simple, se realiza con base en el ejemplo recibid
 Hace uso de los paquetes:
 
 get : para gestión de estados -> https://pub.dev/packages/get
+
 loggy: para fregistro del log -> https://pub.dev/packages/loggy
   
 La siguiente imágen presenta un demo de la aplicación funcional:
 
+https://github.com/johnhaverh/ShoppingApp/blob/main/ShoppingApp.GIF
