@@ -12,4 +12,4 @@ loggy: para fregistro del log -> https://pub.dev/packages/loggy
   
 La siguiente imágen presenta un demo de la aplicación funcional:
 
-https://github.com/johnhaverh/ShoppingApp/blob/main/ShoppingApp.GIF
+<img src="https://github.com/johnhaverh/ShoppingApp/blob/main/ShoppingApp.GIF" width="300" />
